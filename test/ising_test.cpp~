@@ -1,0 +1,11 @@
+#include "/home/zhe/ME2018/googletest/googletest/include/gtest/gtest.h"
+// #include "../src/ising.h"
+
+double a = 1.0;
+
+int main(){
+TEST(a,a){
+  EXPECT_EQ(a,1.0);
+}
+ return 0;
+}
